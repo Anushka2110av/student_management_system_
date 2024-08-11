@@ -1,0 +1,27 @@
+.header {
+    background-color: skyblue;
+    line-height: 70px;
+    padding-left: 30px;
+}
+
+a, a:hover {
+    text-decoration: none !important;
+}
+
+.logout {
+    float: right;
+    padding-right: 30px;
+}
+
+.container {
+    margin-top: 70px;
+}
+
+#scheduleForm {
+    margin-bottom: 20px;
+}
+
+#calendar {
+    max-width: 900px;
+    margin: 0 auto;
+}
