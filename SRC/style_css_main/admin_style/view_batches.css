@@ -1,0 +1,102 @@
+/* General Styles */
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+.header
+{
+
+	background-color: skyblue;
+	line-height: 70px;
+	padding-left: 30px;	
+}
+.logout
+{
+	float: right;
+	padding-right: 30px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding-top: 70px;
+}
+
+/* Navigation Styles */
+nav {
+    position: fixed;
+    background-color: rgb(20, 12, 63);
+    height: 70px;
+    width: 100%;
+    z-index: 1;
+}
+
+.logo {
+    font-size: 25px;
+    position: relative;
+    left: 5%;
+    color: white;
+    font-weight: bold;
+    line-height: 70px;
+}
+
+ul {
+    position: relative;
+    float: right;
+    margin-right: 20px;
+}
+
+ul li {
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 5px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+/* Table Styles */
+.table-container {
+    max-width: 90%;
+    margin: 50px auto;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Footer Styles */
+footer {
+    background-color: black;
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    line-height: 70px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
