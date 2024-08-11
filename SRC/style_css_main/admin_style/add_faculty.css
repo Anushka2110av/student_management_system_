@@ -1,0 +1,129 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.header a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.header .logout {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.content {
+    margin-top: 60px;
+    padding: 20px;
+    text-align: center; /* Centering content */
+}
+
+.content h1 {
+    margin-bottom: 20px;
+}
+
+.content form {
+    display: inline-block;
+    text-align: left;
+}
+
+.content form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.content form input[type="text"],
+.content form input[type="file"],
+.content form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.content form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.content form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+aside {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    position: fixed;
+    left: 0;
+    top: 60px;
+    bottom: 0;
+    width: 200px;
+    overflow-y: auto;
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin: 10px 0;
+}
+
+aside ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+aside ul li a:hover {
+    text-decoration: underline;
+}
+
+.image-container {
+    text-align: center; /* Centering image container */
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Additional Styles for Add Faculty Page */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-weight: bold;
+}
+
+form textarea {
+    height: 100px;
+}
